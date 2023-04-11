@@ -1,6 +1,8 @@
 import {reactive} from 'vue';
 
 export const store = reactive({
+   //navbar-----------------------
+   
     navLinks: [
         {
             name:"Home",
@@ -29,5 +31,8 @@ export const store = reactive({
     ],
 
     activeIndex: 0,
+
+    //header----------------------
+
     
 })
