@@ -22,7 +22,7 @@
 </script>
 
 <template>
-  
+  <AppNavbar></AppNavbar>
 </template>
 
 <style lang="scss" scoped>
