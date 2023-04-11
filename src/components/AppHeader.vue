@@ -4,7 +4,7 @@
     -container
     -position absolute su quadrati in alto a dx
     -div con testo e divisore
-    -iniziare a creare componente per divisore (^^^)
+    -iniziare a creare componente per divisore (^^^) >>> idea buona ma fare solo se in più...
     -button play (flexato centralmente insieme a text container)
     -ricorda padding bottom superiore per imagine di section1 che "sborda"
     -aggiungi effetti hover
@@ -20,6 +20,8 @@
             store,
         }
     },
+
+    
 }
 
 </script>
@@ -46,7 +48,11 @@
                 <div class="header-text">
                     <span class="red">Certified fitness professional</span>
                     <h1>Take control of your healt</h1>
-                    <span>^^^</span>
+                    <span>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </span>
                     <span class="grey">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</span>
                     <div class="btns-container">
                         <button class="btn primary"><i class="fa-brands fa-youtube"></i> Visit my YouTube channel</button>
@@ -158,7 +164,7 @@
                     }
                     .grey{
                         color: $paletteGrey;
-                        font-size: 1.2em;
+                        font-size: 1.1em;
                         font-weight: 600;
                     }
 
@@ -183,7 +189,11 @@
                                 background-color: $paletteWhite;
                                 color: $paletteBlack;
                             }
-                        }
+                        }  
+                    }
+
+                    .fa-chevron-up{
+                        color: $paletteYellow;
                     }
 
                 }
