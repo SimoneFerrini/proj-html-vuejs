@@ -4,7 +4,7 @@
     -container
     -position absolute su quadrati in alto a dx
     -div con testo e divisore
-    -iniziare a creare componente per divisore (^^^) >>> idea buona ma fare solo se in più...
+    -iniziare a creare componente per divisore (^^^)
     -button play (flexato centralmente insieme a text container)
     -ricorda padding bottom superiore per imagine di section1 che "sborda"
     -aggiungi effetti hover
@@ -12,6 +12,7 @@
 -->
 <script>
     import {store} from "../store";
+    import Separatore from "./MySeparatore.vue";
     
     export default{
      data(){
@@ -20,6 +21,10 @@
             store,
         }
     },
+
+    components:{
+        Separatore,
+    }
 
     
 }
@@ -48,11 +53,7 @@
                 <div class="header-text">
                     <span class="red">Certified fitness professional</span>
                     <h1>Take control of your healt</h1>
-                    <span>
-                        <i class="fa-solid fa-chevron-up"></i>
-                        <i class="fa-solid fa-chevron-up"></i>
-                        <i class="fa-solid fa-chevron-up"></i>
-                    </span>
+                    <Separatore class="yellow"></Separatore>
                     <span class="grey">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</span>
                     <div class="btns-container">
                         <button class="btn primary"><i class="fa-brands fa-youtube"></i> Visit my YouTube channel</button>
@@ -192,7 +193,7 @@
                         }  
                     }
 
-                    .fa-chevron-up{
+                    .yellow{
                         color: $paletteYellow;
                     }
 
