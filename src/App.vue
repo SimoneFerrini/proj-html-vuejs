@@ -37,6 +37,7 @@
 <template>
   <AppNavbar></AppNavbar>
   <AppHeader></AppHeader>
+  <AppMain></AppMain>
 </template>
 
 <style lang="scss" scoped>
