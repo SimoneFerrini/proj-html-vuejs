@@ -1,3 +1,15 @@
+<!--
+    -sfondo img tutto schermo
+    -sfondo sfumato tutto schermo
+    -container
+    -position absolute su quadrati in alto a dx
+    -div con testo e divisore
+    -iniziare a creare componente per divisore (^^^)
+    -button play (flexato centralmente insieme a text container)
+    -ricorda padding bottom superiore per imagine di section1 che "sborda"
+    -aggiungi effetti hover
+
+-->
 <script>
     import {store} from "../store";
     
@@ -15,12 +27,12 @@
 <template>
     <div class="bg-image">
         <div class="square-icons">
-            <div class="top-left-icon">
+            <div class="top-right-icon">
                 <div class="icon-top"><i class="fa-solid fa-folder-open"></i></div>
                 <div class="icon-bot">Demos</div>
             </div>
             <!--section about bg and icon on left--------------------->
-            <div class="top-left-icon">
+            <div class="top-right-icon">
                 <div class="icon-top">
                     <span class="green-dollar">$</span>
                     <span class="green-number">39</span>
@@ -71,7 +83,7 @@
             right: 1.5em;
             top: 2.5em;
 
-            .top-left-icon{
+            .top-right-icon{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;

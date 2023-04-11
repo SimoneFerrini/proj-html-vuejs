@@ -1,3 +1,11 @@
+<!--
+    -sfondo tutto schermo (nero)
+    -container flex spacebetween
+    -a sx - logo, home on click
+    -a dx- ul links, button, icons
+    -SE avazna tempo sistema shop new (si sposta quando scompare)
+    -aggiungi effetti hover
+-->
 <script>
     import {store} from "../store";
 
