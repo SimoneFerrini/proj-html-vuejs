@@ -26,7 +26,7 @@
     <div class="nav-bgc">
         <div class="container">
             <div class="logo">
-                <img src="../../img/logo.png" alt="logo">
+                <a href="../../index.html"> <img src="../../img/logo.png" alt="logo"></a>
             </div>
             <div class="nav-rightside">
                 <ul class="nav-links">
@@ -36,7 +36,7 @@
                         
                     </li>
                 </ul>
-                <button>Schedule a workout</button>
+                <button class="btn">Schedule a workout</button>
                 <div class="nav-icons">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -113,12 +113,9 @@
                     }
                 }
 
-                button{
-                    padding: 1em 1.5em;
+                .btn{
                     background-color: $paletteBlue;
-                    border-radius: 25px;
-                    font-size: 0.9em;
-                    border: none;
+                    
 
                     &:hover{
                         background-color: $paletteRed;

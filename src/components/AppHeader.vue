@@ -32,9 +32,16 @@
             <!--section about the header main-------------------------->
             <div class="container">
                 <div class="header-text">
-                    ciao
+                    <span class="red">Certified fitness professional</span>
+                    <h1>Take control of your healt</h1>
+                    <span>^^^</span>
+                    <span class="grey">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</span>
+                    <div class="btns-container">
+                        <button class="btn primary"><i class="fa-brands fa-youtube"></i> Visit my YouTube channel</button>
+                        <button class="btn secondary">Buy Avada today <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
                 </div>
-                <button><i class="fa-solid fa-play"></i></button>
+                <button class="play-btn"><i class="fa-solid fa-play"></i></button>
             </div>
         </div>
     </div>
@@ -80,6 +87,7 @@
                     display: flex;
                     align-items: start;
                     font-size: 1.4em;
+                    max-height: 34px;
 
 
                     .green-dollar{
@@ -119,16 +127,70 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                padding: 1.5em 10% 4em 0;
+                padding: 1.5em 10% 5em 0;
                 height: 100%;
 
-                button{
+                .header-text{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5em;
+                    .red{
+                    color: $paletteRed;
+                    font-size: 1.2em;
+                    font-weight: 600;
+                    }
+
+                    h1{
+                        font-size: 3em;
+                        font-weight: 600;
+                    }
+                    .grey{
+                        color: $paletteGrey;
+                        font-size: 1.2em;
+                        font-weight: 600;
+                    }
+
+                    .btns-container{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 1.5em;
+
+                        .primary{
+                            background-color: $paletteBlue;
+
+                            &:hover{
+                                background-color: $paletteRed;
+                            }
+                        }
+
+                        .secondary{
+                            background-color: $paletteBlack;
+                            border: 1px solid $paletteGrey;
+
+                            &:hover{
+                                background-color: $paletteWhite;
+                                color: $paletteBlack;
+                            }
+                        }
+                    }
+
+                }
+
+                
+
+                .play-btn{
                     background-color: $paletteWhite;
                     color: $paletteBlue;
                     border: none;
                     border-radius: 50%;
                     font-size: 1.5em;
                     padding: 0.8em 1em;
+
+                    &:hover{
+                        background-color: $paletteBlue;
+                        color: $paletteWhite;
+                        border: 1px solid $paletteGrey;
+                    }
                 }
             }
         }
