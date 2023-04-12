@@ -95,7 +95,25 @@ export const store = reactive({
             text:'Vestibulum, curabitur eu semn nibh ultrices sit nulla adisciping. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.',
             link:'Schedule a workout',
         }
-    ]
+    ],
 
+    //section Five, card list-----------------------------------------
+    secFiveCards:[
+        {
+            imgSrc: '../../../img/blog4-2x.jpg',
+            title: 'The best protein shake',
+            text: 'By admin | November 26th, 2019 | Gym',
+        },
+        {
+            imgSrc: '../../../img/blog1-2x.jpg',
+            title: 'Ultimate cardio workout',
+            text: 'By admin | November 26th, 2019 | Gym',
+        },
+        {
+            imgSrc: '../../../img/blog3-2x.jpg',
+            title: 'New juices available now',
+            text: 'By admin | November 26th, 2019 | Gym',
+        }
+    ],
     
 })
