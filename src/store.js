@@ -116,4 +116,27 @@ export const store = reactive({
         }
     ],
     
+    //section Seven, card list-----------------------------------------
+    secSevenCards:[
+        {
+            imgSrc: '../../../img/sponsor-1-2x.png',
+            text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nihil, voluptatibus aspernatur harum tenetur quo earum illo dolore unde maxime.',
+            link: 'Visit Yoga Studio',
+        },
+        {
+            imgSrc: '../../../img/sponsor-2-2x.png',
+            text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nihil, voluptatibus aspernatur harum tenetur quo earum illo dolore unde maxime.',
+            link: 'Join Fitness Center',
+        },
+        {
+            imgSrc: '../../../img/sponsor-3-2x.png',
+            text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nihil, voluptatibus aspernatur harum tenetur quo earum illo dolore unde maxime.',
+            link: 'Learn about FC',
+        },
+        {
+            imgSrc: '../../../img/sponsor-4-2x.png',
+            text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nihil, voluptatibus aspernatur harum tenetur quo earum illo dolore unde maxime.',
+            link: 'Visit Power Gym',
+        }
+    ],
 })
