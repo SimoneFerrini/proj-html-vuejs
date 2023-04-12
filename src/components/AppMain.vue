@@ -10,6 +10,7 @@
     import SectionThree from "./MainSection/SectionThree.vue";
     import SectionFour from "./MainSection/SectionFour.vue";
     import SectionFive from "./MainSection/SectionFive.vue";
+    import SectionSix from "./MainSection/SectionSix.vue";
 
     export default{
   data(){
@@ -25,16 +26,20 @@
     SectionThree,
     SectionFour,
     SectionFive,
+    SectionSix,
 }
 }
 </script>
 
 <template>
+
   <SectionOne></SectionOne>
   <SectionTwo></SectionTwo>
   <SectionThree></SectionThree>
   <SectionFour></SectionFour>
   <SectionFive></SectionFive>
+  <SectionSix></SectionSix>
+
 </template>
 
 <style lang="scss" scoped>
