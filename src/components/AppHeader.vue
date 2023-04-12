@@ -13,6 +13,7 @@
 <script>
     import {store} from "../store";
     import Separatore from "./MySeparatore.vue";
+    import PlayButton from "./PlayButton.vue";
     
     export default{
      data(){
@@ -24,6 +25,7 @@
 
     components:{
         Separatore,
+        PlayButton,
     }
 
     
@@ -60,7 +62,7 @@
                         <button class="btn secondary">Buy Avada today <i class="fa-solid fa-arrow-right"></i> </button>
                     </div>
                 </div>
-                <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                <PlayButton></PlayButton>
             </div>
         </div>
     </div>
@@ -194,22 +196,7 @@
 
                 }
 
-                
-
-                .play-btn{
-                    background-color: $paletteWhite;
-                    color: $paletteBlue;
-                    border: none;
-                    border-radius: 50%;
-                    font-size: 1.5em;
-                    padding: 0.8em 1em;
-
-                    &:hover{
-                        background-color: $paletteBlue;
-                        color: $paletteWhite;
-                        border: 1px solid $paletteGrey;
-                    }
-                }
+            
             }
         }
     }
