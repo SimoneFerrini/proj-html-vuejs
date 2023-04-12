@@ -7,6 +7,7 @@
     import {store} from "../store";
     import SectionOne from "./MainSection/SectionOne.vue";
     import SectionTwo from "./MainSection/SectionTwo.vue";
+    import SectionThree from "./MainSection/SectionThree.vue";
 
     export default{
   data(){
@@ -19,6 +20,7 @@
   components:{
     SectionOne,
     SectionTwo,
+    SectionThree,
   }
 }
 </script>
@@ -26,6 +28,7 @@
 <template>
   <SectionOne></SectionOne>
   <SectionTwo></SectionTwo>
+  <SectionThree></SectionThree>
 </template>
 
 <style lang="scss" scoped>
