@@ -22,9 +22,7 @@
   <div class="bgcol">
     <div class="container">
         <div class="cards-container">
-            <SingleCard></SingleCard>
-            <SingleCard></SingleCard>
-            <SingleCard></SingleCard>
+            <SingleCard v-for="card in store.secOneCards" :Card="card"></SingleCard>
         </div>
         <div class="text-container">
             <p>"How you respond to the challenge in the second half will determine what you became after the game, whether you are a winner or a loser"</p>
@@ -48,7 +46,7 @@
         height: 630px;
         width: 100%;
 
-        position: relative;
+        
 
         .container{
             display: flex;
@@ -58,6 +56,7 @@
             gap:3em;
             padding-bottom: 5em;
             height: 100%;
+            position: relative;
 
             .cards-container{
                 display: flex;
@@ -65,7 +64,9 @@
                 justify-content: space-between;
                 gap: 20px;
 
-                margin-top: -1em;
+                position: absolute;
+                left: 0;
+                top: -2em;
             }
 
             .text-container{
