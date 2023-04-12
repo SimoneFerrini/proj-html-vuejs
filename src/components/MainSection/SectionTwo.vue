@@ -36,6 +36,7 @@
        
       
         <div class="container">
+            <!--top section-------------------------------------------------------- -->
             <div class="top-container">
                 <div class="top-right">
 
@@ -60,8 +61,15 @@
                 </div>
             
             </div>
+            <!--bottom section ---------------------------------------------------- -->
             <div class="bot-container">
+                <div class="bot-text">
+                    <span id="bot-span-big">Featured playlist</span>
+                    <span id="bot-span-small">View all videos <i class="fa-solid fa-angle-right"></i></span>
+                </div>
+                <div class="cards-container">
 
+                </div>
             </div>
         </div>
 
@@ -77,7 +85,7 @@
         
         position: relative;
         color: $paletteBlack;
-
+//top section---------------------------------------------
         .img-container{
             width: calc(80vw / 2);
             height: calc(80vw / 2);
@@ -193,6 +201,33 @@
                                 background-color: $paletteWhite;
                             }
                         }
+
+                    }
+                }
+                
+                //bottom section --------------------------------------------------------------------------------
+                .bot-container{
+                    width: 100%;
+                    padding: 7em 0 7em 0;
+
+                    .bot-text{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: end;
+
+                        width: 80%;
+
+                        #bot-span-big{
+                            font-size: 1.5em;
+                            font-weight: 600;
+                        }
+
+                        #bot-span-small{
+                            font-size: 0.8em;
+                            font-weight: 600;
+                        }
+
 
                     }
                 }

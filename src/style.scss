@@ -25,6 +25,10 @@
   margin: 0 auto;
 }
 
+button{
+  border: 1px solid transparent;
+}
+
 button:hover{
   cursor: pointer;
 }
@@ -33,7 +37,7 @@ button:hover{
   padding: 1em 1.5em;
   border-radius: 25px;
   font-size: 0.9em;
-  border: none;
+  border: 1px solid transparent;
 }
 
 //general ^ 
