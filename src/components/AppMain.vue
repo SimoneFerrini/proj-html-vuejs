@@ -6,6 +6,7 @@
 <script>
     import {store} from "../store";
     import SectionOne from "./MainSection/SectionOne.vue";
+    import SectionTwo from "./MainSection/SectionTwo.vue";
 
     export default{
   data(){
@@ -17,12 +18,14 @@
 
   components:{
     SectionOne,
+    SectionTwo,
   }
 }
 </script>
 
 <template>
   <SectionOne></SectionOne>
+  <SectionTwo></SectionTwo>
 </template>
 
 <style lang="scss" scoped>
