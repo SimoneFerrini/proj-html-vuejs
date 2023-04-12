@@ -72,5 +72,30 @@ export const store = reactive({
         }
     ],
 
+    //section four, card list ----------------------------------
+    secFourCards:[
+        {
+            icon:'fa-solid fa-heart',
+            title:'Team training',
+            subtitle:'Find a partner',
+            text:'Vestibulum, curabitur eu semn nibh ultrices sit nulla adisciping. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.',
+            link:'Find a partner',
+        },
+        {
+            icon:'fa-solid fa-dumbbell',
+            title:'Crossfit workout',
+            subtitle:'Push your limits',
+            text:'Vestibulum, curabitur eu semn nibh ultrices sit nulla adisciping. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.',
+            link:'Learn about Crossfit',
+        },
+        {
+            icon:'fa-sharp fa-solid fa-fire-flame-curved',
+            title:'Weight loss plan',
+            subtitle:'Shed those pounds',
+            text:'Vestibulum, curabitur eu semn nibh ultrices sit nulla adisciping. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.',
+            link:'Schedule a workout',
+        }
+    ]
+
     
 })
