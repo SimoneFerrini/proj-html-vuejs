@@ -9,6 +9,7 @@
 <script>
     import {store} from "../../store";
     import PlayButton from "../PlayButton.vue";
+    import Card from "./CardSecTwo.vue";
 
 
     export default{
@@ -21,6 +22,7 @@
 
   components:{
     PlayButton,
+    Card,
   }
 }
 </script>
@@ -68,7 +70,7 @@
                     <span id="bot-span-small">View all videos <i class="fa-solid fa-angle-right"></i></span>
                 </div>
                 <div class="cards-container">
-
+                    <Card v-for="card in store.secTwoCards" :card="card"></Card>
                 </div>
             </div>
         </div>
@@ -119,7 +121,7 @@
                 flex-direction: column;
                 gap: 1em;
                 
-                padding: 5em 0 5em 0;
+                padding: 5em 0 3em 0;
 
                 .top-container{
                     display: flex;
@@ -208,7 +210,7 @@
                 //bottom section --------------------------------------------------------------------------------
                 .bot-container{
                     width: 100%;
-                    padding: 7em 0 7em 0;
+                    padding: 7em 0 3em 0;
 
                     .bot-text{
                         display: flex;
@@ -216,7 +218,7 @@
                         justify-content: space-between;
                         align-items: end;
 
-                        width: 80%;
+                        width: 100%;
 
                         #bot-span-big{
                             font-size: 1.5em;
@@ -226,10 +228,18 @@
                         #bot-span-small{
                             font-size: 0.8em;
                             font-weight: 600;
+                            padding-right: 9em;
                         }
-
-
                     }
+
+                    .cards-container{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+
+                            width: 100%;
+                            margin: 2em 0;
+                        }
                 }
 
 

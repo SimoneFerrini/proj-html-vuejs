@@ -51,7 +51,26 @@ export const store = reactive({
             title: "Team training",
             text:"Find a partner",
         }
-    ]
+    ],
+
+    //section two, card list----------------------
+    secTwoCards:[
+        {
+            imgSrc:'../../../img/video2-2x.jpg',
+            title:'Thighs & glute workout',
+            text:'Increase your mobility',
+        },
+        {
+            imgSrc:'../../../img/video7-2x.jpg',
+            title:'Lift, firm & perk up',
+            text:'Feel young again',
+        },
+        {
+            imgSrc:'../../../img/video9-2x.jpg',
+            title:'Slim & trim your waist',
+            text:'Shed those extra pounds',
+        }
+    ],
 
     
 })
