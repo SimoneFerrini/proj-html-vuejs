@@ -68,12 +68,7 @@
 </template>
 
 <style lang="scss" scoped>
-    $paletteBlack: #060607;
-    $paletteWhite: #FFFFFF;
-    $paletteGrey: #98939F;
-    $paletteBlue: #4154FF;
-    $paletteRed: #FF414B;
-    $paletteYellow: #FFF941;
+    @use "../varibiliScss.scss" as *;
 
     .bg-image{
         background-image: url("../../img/slider82x-scaled.jpg");

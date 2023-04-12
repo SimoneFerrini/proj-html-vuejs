@@ -34,5 +34,24 @@ export const store = reactive({
 
     //header----------------------
 
+    //main, section one, card section one
+    secOneCards:[
+        {
+            imgSrc: "../../../img/service6-2x.jpg",
+            title: "Crossfit workout",
+            text:"Push your limit",
+        },
+        {
+            imgSrc: "../../../img/box1-2x.jpg",
+            title: "New gym apparel",
+            text:"Look good, feel good",
+        },
+        {
+            imgSrc: "../../../img/box3-2x.jpg",
+            title: "Team training",
+            text:"Find a partner",
+        }
+    ]
+
     
 })

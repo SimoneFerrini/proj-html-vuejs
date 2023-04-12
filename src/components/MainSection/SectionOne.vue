@@ -1,6 +1,7 @@
 <script>
     import {store} from "../../store";
     import Separatore from "../MySeparatore.vue";
+    import SingleCard from "./CardSecOne.vue";
 
     export default{
   data(){
@@ -12,6 +13,7 @@
 
   components:{
     Separatore,
+    SingleCard,
   }
 }
 </script>
@@ -20,7 +22,9 @@
   <div class="bgcol">
     <div class="container">
         <div class="cards-container">
-            ciao
+            <SingleCard></SingleCard>
+            <SingleCard></SingleCard>
+            <SingleCard></SingleCard>
         </div>
         <div class="text-container">
             <p>"How you respond to the challenge in the second half will determine what you became after the game, whether you are a winner or a loser"</p>
@@ -38,15 +42,10 @@
 </template>
 
 <style lang="scss" scoped>
-    $paletteBlack: #060607;
-    $paletteWhite: #FFFFFF;
-    $paletteGrey: #98939F;
-    $paletteBlue: #4154FF;
-    $paletteRed: #FF414B;
-    $paletteYellow: #FFF941;
+    @use "../../varibiliScss.scss" as *;
     .bgcol{
         background: linear-gradient(135deg, $paletteBlue 0%, $paletteRed 100%);
-        height: 600px;
+        height: 630px;
         width: 100%;
 
         position: relative;
@@ -56,8 +55,18 @@
             flex-direction: column;
             justify-content: end;
             align-items: center;
+            gap:3em;
             padding-bottom: 5em;
             height: 100%;
+
+            .cards-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 20px;
+
+                margin-top: -1em;
+            }
 
             .text-container{
                 display: flex;
