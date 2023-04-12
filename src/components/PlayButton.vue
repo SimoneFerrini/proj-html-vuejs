@@ -19,6 +19,7 @@
                         background-color: $paletteBlue;
                         color: $paletteWhite;
                         border: 1px solid $paletteGrey;
+
                     }
                 }
 </style>

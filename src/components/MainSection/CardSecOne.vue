@@ -50,9 +50,14 @@
 
     position: relative;
 
+    &:hover{
+        cursor: pointer;
+    }
+
     &:hover img {
             transform: scale(110%);
             transition: linear 1s;
+            
         }
 
     .img-container{
