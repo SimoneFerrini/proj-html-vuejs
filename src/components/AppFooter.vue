@@ -164,6 +164,7 @@
                         font-weight: 400;
                         margin-bottom: 2em;
                     }
+                
 
                     .contact{
                         font-size: 1.1em;
