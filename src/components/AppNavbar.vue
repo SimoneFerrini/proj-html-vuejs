@@ -74,17 +74,19 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                gap: 1.5em;
+                gap: 1em;
 
                 .nav-links{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                gap: 1.5em;
+                gap: 3em;
 
                 list-style: none;
                 color: $paletteGrey;
+
+                margin-right: 2.5em;
 
                 li{
                     display: flex;
@@ -94,6 +96,8 @@
                     gap: 0.5em;
 
                     font-weight: bold;
+
+                    position: relative;
 
                     &:hover{
                         cursor: pointer;
@@ -109,7 +113,11 @@
                         border-radius: 4px;
                         text-transform: lowercase;
                         font-weight: 400;
-                        padding: 2px 8px;
+                        padding: 2px 6px;
+
+                        position: absolute;
+                        top: 0;
+                        right: -45px;
 
                     }
 
@@ -131,7 +139,7 @@
                     flex-direction: row;
                     justify-content: space-between;
                     align-items: center;
-                    gap: 1.5em;
+                    gap: 1em;
 
                     i:hover{
                         color: $paletteWhite;

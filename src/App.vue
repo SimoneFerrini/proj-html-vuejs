@@ -47,8 +47,10 @@ OK- Milestone4: crea componente separatore(^^^)
 
 <template>
   <AppNavbar></AppNavbar>
-  <AppHeader></AppHeader>
-  <AppMain></AppMain>
+  <div v-if="store.activeIndex == 0">
+    <AppHeader></AppHeader>
+    <AppMain></AppMain>
+  </div>
   <AppFooter></AppFooter>
 </template>
 
