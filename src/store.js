@@ -139,4 +139,28 @@ export const store = reactive({
             link: 'Visit Power Gym',
         }
     ],
+
+
+    //Footer-----------------------------------------------------------
+    iconSocial:[
+        "fa-brands fa-facebook-f",
+        "fa-brands fa-twitter",
+        "fa-brands fa-youtube",
+        "fa-brands fa-instagram",
+        "fa-brands fa-linkedin-in",
+    ],
+
+    recentPosts:[
+        "The best protein shake",
+        "Ultimate cardio workout",
+        "New juices available now",
+        "Tips to find training partners",
+        "20 best healty recipes",
+    ],
+
+    footerContact:{
+        location: '4748 Tipple Road Michigan 48449',
+        mobile: '1.800.000.0000',
+        email: 'info@your-company.com',
+    }
 })
