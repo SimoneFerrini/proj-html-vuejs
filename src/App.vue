@@ -51,8 +51,21 @@ OK- Milestone4: crea componente separatore(^^^)
     <AppHeader></AppHeader>
     <AppMain></AppMain>
   </div>
+  <!--questa parte è in più rispetto alla consegna, può essere ottimizzata, ma la lascio per far vedere come pensavo di gestirla eventualmente -->
+  <div class="div-page-not-found" v-if="store.activeIndex == 1"> !!! Sorry, the page Services is actually in maintenance !!! </div>
+  <div class="div-page-not-found" v-if="store.activeIndex == 2"> !!! Sorry, the page About is actually in maintenance !!! </div>
+  <div class="div-page-not-found" v-if="store.activeIndex == 3"> !!! Sorry, the page Videos is actually in maintenance !!! </div>
+  <div class="div-page-not-found" v-if="store.activeIndex == 4"> !!! Sorry, the page Blog is actually in maintenance !!! </div>
+  <div class="div-page-not-found" v-if="store.activeIndex == 5"> !!! Sorry, the page Store is actually in maintenance !!! </div>
   <AppFooter></AppFooter>
 </template>
 
 <style lang="scss" scoped>
+  .div-page-not-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+  }
 </style>
