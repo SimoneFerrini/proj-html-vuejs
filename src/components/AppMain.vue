@@ -12,6 +12,7 @@
     import SectionFive from "./MainSection/SectionFive.vue";
     import SectionSix from "./MainSection/SectionSix.vue";
     import SectionSeven from "./MainSection/SectionSeven.vue";
+    import SectionEight from "./MainSection/SectionEight.vue";
 
     export default{
   data(){
@@ -29,7 +30,9 @@
     SectionFive,
     SectionSix,
     SectionSeven,
-}
+    SectionEight,
+  },
+
 }
 </script>
 
@@ -42,6 +45,7 @@
   <SectionFive></SectionFive>
   <SectionSix></SectionSix>
   <SectionSeven></SectionSeven>
+  <SectionEight></SectionEight>
 
 </template>
 

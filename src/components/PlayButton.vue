@@ -10,7 +10,7 @@
     .play-btn{
                     background-color: $paletteWhite;
                     color: $paletteBlue;
-                    border: none;
+                    border: 1px solid transparent;
                     border-radius: 50%;
                     font-size: 1.5em;
                     padding: 0.8em 1em;

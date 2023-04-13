@@ -45,6 +45,10 @@
 
     width: calc(100% / 3 - 30px / 3 * 2);
 
+    &:hover{
+        cursor: pointer;
+    }
+
     .shade-hover{
         width: 100%;
         height: 100%;
